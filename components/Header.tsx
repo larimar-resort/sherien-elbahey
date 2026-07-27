@@ -98,7 +98,7 @@ export default function Header() {
             />
           </div>
           <div>
-            <div className="font-mono text-xs uppercase tracking-widest text-[#C85A32] font-semibold flex items-center gap-1">
+            <div className="font-mono text-[10px] sm:text-xs uppercase tracking-wider sm:tracking-widest text-[#C85A32] font-semibold flex items-center gap-1 whitespace-nowrap">
               {t.header.role}
             </div>
             <h1 className="text-xl font-bold tracking-tight text-[#1C1917]">
