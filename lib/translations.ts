@@ -3,7 +3,7 @@ export type Language = "en" | "de";
 export const translations = {
   en: {
     header: {
-      locationTag: "PORT GHALIB | 25°32'N 34°38'E",
+      locationTag: "PORT GHALIB",
       exclusivityTag: "| ARCHITECTURAL EXCLUSIVITY",
       role: "Sales Business Relations",
       navOverview: "Overview",
@@ -136,7 +136,7 @@ export const translations = {
 
   de: {
     header: {
-      locationTag: "PORT GHALIB | 25°32'N 34°38'E",
+      locationTag: "PORT GHALIB",
       exclusivityTag: "| ARCHITEKTONISCHE EXKLUSIVITÄT",
       role: "Sales Business Relations",
       navOverview: "Übersicht",
