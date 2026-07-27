@@ -13,7 +13,6 @@ export default function ContactSection() {
   const { t } = useLanguage();
   const [formData, setFormData] = useState({
     name: "",
-    contactInfo: "",
     projectInterest: "",
     message: "",
   });
@@ -57,7 +56,7 @@ export default function ContactSection() {
 
     // Pre-fill WhatsApp message
     const waText = encodeURIComponent(
-      `Hello Sherien,\nMy name is ${formData.name || "Client"}.\nI'm interested in ${formData.projectInterest}.\nContact: ${formData.contactInfo}\nMessage: ${formData.message}`
+      `Hello Sherien,\nMy name is ${formData.name || "Client"}.\nI'm interested in ${formData.projectInterest}.\nMessage: ${formData.message}`
     );
     window.open(`https://wa.me/201019996222?text=${waText}`, "_blank");
   };
@@ -179,20 +178,6 @@ export default function ContactSection() {
                     placeholder={t.contact.placeholderName}
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full p-3 rounded border border-[#E8E2D9] bg-[#FAF8F5] focus:bg-[#FFFDF9] focus:outline-none focus:border-[#C85A32] text-sm text-[#1C1917]"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-xs font-mono font-bold text-[#1C1917] uppercase mb-1">
-                    {t.contact.labelContact}
-                  </label>
-                  <input
-                    type="text"
-                    required
-                    placeholder={t.contact.placeholderContact}
-                    value={formData.contactInfo}
-                    onChange={(e) => setFormData({ ...formData, contactInfo: e.target.value })}
                     className="w-full p-3 rounded border border-[#E8E2D9] bg-[#FAF8F5] focus:bg-[#FFFDF9] focus:outline-none focus:border-[#C85A32] text-sm text-[#1C1917]"
                   />
                 </div>

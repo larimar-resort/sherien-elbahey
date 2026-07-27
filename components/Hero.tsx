@@ -2,6 +2,7 @@
 
 import React from "react";
 import { ImageWithLoader } from "./ImageWithLoader";
+import { WhatsappIcon } from "./WhatsappIcon";
 import { Key, Award, Phone, Mail, ArrowRight } from "lucide-react";
 
 import { useLanguage } from "@/context/LanguageContext";
@@ -133,11 +134,13 @@ export default function Hero() {
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a
-                href="#contact"
-                className="flex items-center justify-center gap-2 px-6 py-4 rounded-md bg-[#FFFDF9] border-2 border-[#1C1917] hover:bg-[#1C1917] hover:text-white text-[#1C1917] text-sm font-bold tracking-wide uppercase transition-all shadow"
+                href="https://wa.me/201019996222?text=Hello%20Sherien,%20I'm%20interested%20in%20Larimar%20Port%20Ghalib%20properties."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-6 py-4 rounded-md bg-[#25D366] hover:bg-[#1EBE5A] text-white text-sm font-bold tracking-wide uppercase transition-all shadow-lg hover:shadow-xl"
               >
-                <Phone className="w-4 h-4 text-[#C85A32]" />
-                {t.hero.btnDirectConsultation}
+                <WhatsappIcon className="w-5 h-5 fill-white text-[#25D366]" />
+                WhatsApp Consultation
               </a>
             </div>
 
