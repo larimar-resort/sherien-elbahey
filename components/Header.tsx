@@ -69,17 +69,17 @@ export default function Header() {
         </div>
         <div className="flex items-center gap-6">
           <a
-            href="tel:+201005532941"
+            href="tel:+201019996222"
             className="flex items-center gap-1 hover:text-[#D4AF37] transition-colors"
           >
-            <span>+20 100 553 2941</span>
+            <span>+20 10 19996222</span>
           </a>
           <a
-            href="mailto:msharawi@larimar-resort.com"
+            href="mailto:sherien@larimar.homes"
             className="hidden sm:flex items-center gap-1 hover:text-[#D4AF37] transition-colors"
           >
             <Mail className="w-3 h-3 text-[#0A8491]" />
-            <span>msharawi@larimar-resort.com</span>
+            <span>sherien@larimar.homes</span>
           </a>
         </div>
       </div>
@@ -124,7 +124,7 @@ export default function Header() {
         <div className="hidden sm:flex items-center gap-4">
           <LanguageSwitcher />
           <a
-            href="https://wa.me/201005532941?text=Hello%20Sherien,%20I'm%20interested%20in%20Larimar%20Port%20Ghalib%20properties."
+            href="https://wa.me/201019996222?text=Hello%20Sherien,%20I'm%20interested%20in%20Larimar%20Port%20Ghalib%20properties."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2.5 rounded bg-[#25D366] hover:bg-[#1EBE5A] text-white text-xs font-mono font-bold tracking-wider uppercase transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
@@ -191,7 +191,7 @@ export default function Header() {
           </a>
           <div className="pt-4 border-t border-[#E8E2D9] flex flex-col gap-3">
             <a
-              href="https://wa.me/201005532941?text=Hello%20Sherien,%20I'm%20interested%20in%20Larimar%20Port%20Ghalib%20properties."
+              href="https://wa.me/201019996222?text=Hello%20Sherien,%20I'm%20interested%20in%20Larimar%20Port%20Ghalib%20properties."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 py-3 rounded bg-[#25D366] text-white font-bold text-sm"
@@ -199,7 +199,7 @@ export default function Header() {
               <WhatsappIcon className="w-5 h-5 fill-white text-[#25D366]" /> {t.header.whatsappConsultation}
             </a>
             <a
-              href="tel:+201005532941"
+              href="tel:+201019996222"
               className="flex items-center justify-center gap-2 py-3 rounded bg-[#1C1917] text-white font-bold text-sm"
             >
               <Phone className="w-4 h-4 text-[#D4AF37]" /> {t.header.callUs}

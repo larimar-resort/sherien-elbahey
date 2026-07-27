@@ -33,18 +33,18 @@ const PortraitCard = () => {
         {/* Contact Card Footnote */}
         <div className="mt-3 pt-3 border-t border-[#E8E2D9] grid grid-cols-2 gap-2 text-xs">
           <a
-            href="tel:+201005532941"
+            href="tel:+201019996222"
             className="flex items-center gap-1.5 p-2 rounded bg-[#FAF8F5] hover:bg-[#FFFDF9] border border-[#E8E2D9] font-mono text-[#1C1917] font-semibold"
           >
             <Phone className="w-3.5 h-3.5 text-[#C85A32]" />
-            +20 100 553 2941
+            +20 10 19996222
           </a>
           <a
-            href="mailto:msharawi@larimar-resort.com"
+            href="mailto:sherien@larimar.homes"
             className="flex items-center gap-1.5 p-2 rounded bg-[#FAF8F5] hover:bg-[#FFFDF9] border border-[#E8E2D9] font-mono text-[#1C1917] font-semibold truncate"
           >
             <Mail className="w-3.5 h-3.5 text-[#0A8491]" />
-            <span className="truncate">msharawi@larimar-resort.com</span>
+            <span className="truncate">sherien@larimar.homes</span>
           </a>
         </div>
 

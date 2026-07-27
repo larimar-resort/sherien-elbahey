@@ -59,7 +59,7 @@ export default function ContactSection() {
     const waText = encodeURIComponent(
       `Hello Sherien,\nMy name is ${formData.name || "Client"}.\nI'm interested in ${formData.projectInterest}.\nContact: ${formData.contactInfo}\nMessage: ${formData.message}`
     );
-    window.open(`https://wa.me/201005532941?text=${waText}`, "_blank");
+    window.open(`https://wa.me/201019996222?text=${waText}`, "_blank");
   };
 
   return (
