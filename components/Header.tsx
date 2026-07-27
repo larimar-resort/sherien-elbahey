@@ -90,8 +90,8 @@ export default function Header() {
         <a href="#" className="flex items-center gap-3 group">
           <div className="relative w-12 h-12 bg-[#FAF8F5] border-2 border-[#C85A32] rounded flex items-center justify-center shrink-0 shadow-sm overflow-hidden">
             <ImageWithLoader
-              src="/images/ms-logo.png"
-              alt="Mohamed Sharawi Logo"
+              src="/images/sb-logo.png"
+              alt="Sherien ElBahey Logo"
               fill
               className="object-contain"
               loaderVariant="small"
@@ -102,7 +102,7 @@ export default function Header() {
               {t.header.role}
             </div>
             <h1 className="text-xl font-bold tracking-tight text-[#1C1917]">
-              Mohamed Sharawi
+              Sherien ElBahey
             </h1>
           </div>
         </a>
@@ -124,7 +124,7 @@ export default function Header() {
         <div className="hidden sm:flex items-center gap-4">
           <LanguageSwitcher />
           <a
-            href="https://wa.me/201005532941?text=Hello%20Mohamed,%20I'm%20interested%20in%20Larimar%20Port%20Ghalib%20properties."
+            href="https://wa.me/201005532941?text=Hello%20Sherien,%20I'm%20interested%20in%20Larimar%20Port%20Ghalib%20properties."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2.5 rounded bg-[#25D366] hover:bg-[#1EBE5A] text-white text-xs font-mono font-bold tracking-wider uppercase transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
@@ -191,7 +191,7 @@ export default function Header() {
           </a>
           <div className="pt-4 border-t border-[#E8E2D9] flex flex-col gap-3">
             <a
-              href="https://wa.me/201005532941?text=Hello%20Mohamed,%20I'm%20interested%20in%20Larimar%20Port%20Ghalib%20properties."
+              href="https://wa.me/201005532941?text=Hello%20Sherien,%20I'm%20interested%20in%20Larimar%20Port%20Ghalib%20properties."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 py-3 rounded bg-[#25D366] text-white font-bold text-sm"

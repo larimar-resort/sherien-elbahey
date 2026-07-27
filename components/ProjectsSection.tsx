@@ -93,7 +93,7 @@ export default function ProjectsSection() {
               {/* Action Callout */}
               <div className="pt-4 border-t border-[#E8E2D9] flex flex-wrap gap-4 items-center justify-end">
                 <a
-                  href="https://wa.me/201005532941?text=Hello%20Mohamed,%20I'm%20interested%20in%20Larimar%20Villas."
+                  href="https://wa.me/201005532941?text=Hello%20Sherien,%20I'm%20interested%20in%20Larimar%20Villas."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-2.5 rounded bg-[#C85A32] hover:bg-[#B44B24] text-white text-xs font-mono font-bold uppercase tracking-wider flex items-center gap-2 transition-all shadow"
@@ -185,7 +185,7 @@ export default function ProjectsSection() {
               {/* Action Callout */}
               <div className="pt-4 border-t border-[#E8E2D9] flex flex-wrap gap-4 items-center justify-end">
                 <a
-                  href="https://wa.me/201005532941?text=Hello%20Mohamed,%20I'm%20interested%20in%20Larimar%20Suites."
+                  href="https://wa.me/201005532941?text=Hello%20Sherien,%20I'm%20interested%20in%20Larimar%20Suites."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-2.5 rounded bg-[#0A8491] hover:bg-[#086F7A] text-white text-xs font-mono font-bold uppercase tracking-wider flex items-center gap-2 transition-all shadow"
@@ -276,7 +276,7 @@ export default function ProjectsSection() {
               {/* Action Callout */}
               <div className="pt-4 border-t border-[#E8E2D9] flex flex-wrap gap-4 items-center justify-end">
                 <a
-                  href="https://wa.me/201005532941?text=Hello%20Mohamed,%20I'm%20interested%20in%20Larimar%203."
+                  href="https://wa.me/201005532941?text=Hello%20Sherien,%20I'm%20interested%20in%20Larimar%203."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-2.5 rounded bg-[#1C1917] hover:bg-[#36322E] text-white text-xs font-mono font-bold uppercase tracking-wider flex items-center gap-2 transition-all shadow"

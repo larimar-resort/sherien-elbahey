@@ -57,7 +57,7 @@ export default function ContactSection() {
 
     // Pre-fill WhatsApp message
     const waText = encodeURIComponent(
-      `Hello Mohamed,\nMy name is ${formData.name || "Client"}.\nI'm interested in ${formData.projectInterest}.\nContact: ${formData.contactInfo}\nMessage: ${formData.message}`
+      `Hello Sherien,\nMy name is ${formData.name || "Client"}.\nI'm interested in ${formData.projectInterest}.\nContact: ${formData.contactInfo}\nMessage: ${formData.message}`
     );
     window.open(`https://wa.me/201005532941?text=${waText}`, "_blank");
   };

@@ -143,7 +143,7 @@ export default function Hero() {
 
           </div>
 
-          {/* Right Column: Mohamed Sharawi Portrait Frame with Architectural Elevation Card */}
+          {/* Right Column: Sherien ElBahey Portrait Frame with Architectural Elevation Card */}
           <div className="hidden lg:block lg:col-span-5 relative">
             <PortraitCard />
           </div>

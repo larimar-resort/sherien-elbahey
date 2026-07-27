@@ -20,11 +20,11 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Mohamed Sharawi | Sales Manager | Larimar Port Ghalib",
+  title: "Sherien ElBahey | Sales Business Relations | Larimar Port Ghalib",
   description:
-    "Mohamed Sharawi - Sales Manager representing Larimar, the premier residential resort community in Port Ghalib, Marsa Alam, Egypt. Find your luxury villa, suite, or townhouse on the Red Sea coastline.",
+    "Sherien ElBahey - Sales Business Relations representing Larimar, the premier residential resort community in Port Ghalib, Marsa Alam, Egypt. Find your luxury villa, suite, or townhouse on the Red Sea coastline.",
   keywords: [
-    "Mohamed Sharawi",
+    "Sherien ElBahey",
     "Larimar Port Ghalib",
     "Marsa Alam Real Estate",
     "Red Sea Luxury Resort",
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     "Larimar Suites",
     "Larimar 3",
   ],
-  authors: [{ name: "Mohamed Sharawi" }],
+  authors: [{ name: "Sherien ElBahey" }],
   openGraph: {
-    title: "Mohamed Sharawi | Sales Manager | Larimar Port Ghalib",
+    title: "Sherien ElBahey | Sales Business Relations | Larimar Port Ghalib",
     description: "Exclusive residential resort community in Port Ghalib, Marsa Alam.",
     type: "website",
   },
