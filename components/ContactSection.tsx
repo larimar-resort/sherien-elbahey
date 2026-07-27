@@ -160,9 +160,7 @@ export default function ContactSection() {
               <form onSubmit={handleSubmit} className="space-y-5">
                 
                 <div>
-                  <div className="text-xs font-mono text-[#C85A32] font-bold uppercase tracking-wider mb-1">
-                    {t.contact.formTag}
-                  </div>
+
                   <h3 className="text-xl font-bold text-[#1C1917]">
                     {t.contact.formTitle}
                   </h3>
